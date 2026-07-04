@@ -1,0 +1,254 @@
+body {
+  overflow-x: hidden;
+}
+.maindiv {
+}
+.main {
+  /*padding-left: 2rem;
+            padding-right: 2rem;*/
+  padding: 0;
+  margin: 0;
+  background: #2a2c2b !important;
+}
+
+.about {
+  background-color: #2a2c2b;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.about .title {
+  color: #ffffff;
+  font-family: "Poppins500";
+  font-style: normal;
+  /*font-weight: 500;*/
+  font-size: 4rem;
+  line-height: 4rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.sub-title {
+  font-family: Poppins500;
+  color: white;
+  font-size: 30px;
+  border-bottom: 3px solid #f6ca56;
+  display: inline-block;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+}
+
+.about .desc {
+  background-color: #626262;
+  height: 100%;
+  padding: 20px;
+  font-family: "Poppins500";
+  font-style: normal;
+  /*font-weight: 500;*/
+  font-size: 24px;
+  line-height: 36px;
+  color: #f2eded;
+  border-radius: 10px;
+}
+
+.about .contact {
+  font-family: Inter700;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height, or 138% */
+
+  letter-spacing: -0.02em;
+  font-feature-settings: "calt" off;
+  /* Annotation bg txt */
+
+  color: #3f3f3f;
+  background: #f7ca56;
+  border-radius: 6px;
+  padding: 0.8rem;
+  text-decoration: none;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.principle {
+  background: #3f3f3f;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.principle .title {
+  color: #ffffff;
+  font-family: "Poppins500";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4em;
+  line-height: 4rem;
+  /* padding-top: 1.5rem; */
+  padding-bottom: 1.5rem;
+  /* margin-top: 2rem; */
+}
+
+.principle .content {
+  font-family: "Poppins500";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #f2eded;
+  /*border-top: 0.4rem solid #F7CA56;*/
+  padding: 1rem;
+}
+.principle .content h1 {
+  font-family: Poppins500;
+  border-bottom: 0.4rem solid #f7ca56;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  padding-bottom: 10px;
+}
+.vision-title {
+  color: #555555;
+  font-family: "Poppins500";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4rem;
+  line-height: 4rem;
+}
+.team {
+  background: #ffffff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.team .title {
+  color: #555555;
+  font-family: "Poppins500";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4rem;
+  line-height: 4rem;
+  padding-bottom: 2rem;
+}
+
+.team img {
+  /*height: 10rem;*/
+  border-radius: 5rem;
+  /*border: 1px solid red;*/
+  margin: 0.5rem;
+}
+
+.advisory {
+  background: #ffffff;
+  background: #ffffff;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.advisory .title {
+  color: #555555;
+  font-family: "Poppins500";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4rem;
+  line-height: 4rem;
+  padding-top: 1.5rem;
+  /* padding-bottom: 2rem; */
+  margin-top: 2rem;
+}
+
+.team-sub-title {
+  font-family: Poppins500;
+  font-size: 1.3em;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.advisory img {
+  /*height: 20rem;*/
+  border-radius: 10rem;
+  /*border: 1px solid red;*/
+  margin: 0.5rem;
+}
+
+.vision-para {
+  font-size: 20px;
+  font-family: Poppins500;
+}
+.team-card {
+  text-align: center;
+}
+.team-card img {
+  display: inline-block;
+  width: 80%;
+}
+
+.team-name {
+  border: 1px solid #2a2c2b;
+  margin: 0px 30px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.team-name > span:first-child {
+  display: block;
+  font-family: Poppins500;
+  font-size: 1.3em;
+  color: #2a2c2b;
+}
+
+.team-name > span:last-child {
+  display: block;
+  font-family: Poppins500;
+  font-size: 1.3em;
+  color: #626262;
+}
+
+@media (max-width: 700px) {
+  .about {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .px-5-resp {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .title,
+  .vision-title {
+    font-size: 3em !important;
+  }
+  .row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .team,
+  .section {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-6 {
+    width: 49% !important;
+  }
+}

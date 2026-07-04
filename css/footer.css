@@ -1,0 +1,54 @@
+footer {
+  padding-left: 6vw;
+  padding-right: 6vw;
+  background-color: #2a2c2b;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+footer a {
+  color: white !important;
+  text-decoration: none;
+}
+.brand {
+  font-weight: 800;
+  font-size: 24px;
+  color: white !important;
+  font-family: Poppins800;
+}
+
+.footer-menu {
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+  font-family: Poppins500;
+}
+.footer-menu-list {
+  font-size: 14px;
+  cursor: pointer;
+  font-family: Poppins500;
+}
+.footer-menu-list span {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.footer-end {
+  /* font-weight: 800; */
+  font-size: 14px;
+  margin-top: 30px;
+  font-family: Poppins500;
+}
+
+.poppins500 {
+  font-family: Poppins500;
+}
+
+@media (max-width: 700px) {
+  footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

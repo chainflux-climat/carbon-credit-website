@@ -1,0 +1,100 @@
+body {
+  overflow-x: hidden;
+}
+.maindiv {
+}
+.main {
+  /*padding-left: 2rem;
+            padding-right: 2rem;*/
+  padding: 0;
+  margin: 0;
+  background: #2a2c2b !important;
+}
+
+.main .row {
+}
+
+.contact {
+  background-color: #2a2c2b;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.contact .title {
+  color: #ffffff;
+  font-family: "Poppins500";
+  font-style: normal;
+  /*font-weight: 500;*/
+  font-size: 4rem;
+  line-height: 4rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.contact .desc {
+  font-family: "Poppins500";
+  font-style: normal;
+  /*font-weight: 500;*/
+  font-size: 24px;
+  line-height: 36px;
+  color: #f2eded;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 5rem;
+}
+
+.contact .content {
+  color: #ffffff;
+}
+
+.contact .border {
+  border: 0px !important;
+  border-bottom: 0.2rem solid #f7ca56 !important;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+.contact .box {
+  background-color: #3f3f3f;
+  padding: 1rem;
+}
+
+.contact .address {
+  padding: 1rem;
+}
+
+.contact .icon {
+  background-color: #3f3f3f;
+  border-radius: 5rem;
+  height: 10rem;
+  width: 10rem;
+  margin-bottom: 2rem;
+}
+
+.contact .icon img {
+  position: relative;
+  height: auto;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.map {
+  padding: 0 4rem;
+}
+@media (max-width: 700px) {
+  .contact {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .map {
+    padding: 0 0rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-4 {
+    width: 30.333333% !important;
+  }
+}
