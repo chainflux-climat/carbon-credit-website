@@ -1,0 +1,32 @@
+name: Build check
+
+# Builds the site on every change. The build fails on invalid front matter, a missing
+# required field, or an internal link that does not resolve, so a broken page cannot
+# be merged. It also fails if public/ was not rebuilt after content changed.
+# It does not deploy anything.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Build
+        run: node build.mjs
+      - name: The committed output matches the sources
+        run: |
+          if ! git diff --quiet -- public; then
+            echo "public/ is out of date. Run 'node build.mjs' and commit the result."
+            git diff --stat -- public
+            exit 1
+          fi

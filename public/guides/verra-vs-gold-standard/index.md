@@ -1,0 +1,153 @@
+# Verra vs Gold Standard for project developers
+
+> Verra's Verified Carbon Standard (VCS) covers all seven Kyoto Protocol gases and project types such as avoided deforestation and geological carbon storage. Gold Standard for the Global Goals credits only carbon dioxide, methane and nitrous oxide, requires two rounds of stakeholder consultation, and certifies projects in five-year cycles. Deadlines, buffers, labels and fees also differ.
+
+Updated 2026-09-30. Canonical: https://climat.today/guides/verra-vs-gold-standard/
+
+- **Rules compared:** VCS Standard v5.0 and v4.7, Gold Standard Principles & Requirements v2.1
+- **Eligible gases:** VCS: seven Kyoto Protocol gases and ozone-depleting substances. Gold Standard: CO2, CH4 and N2O only
+- **Public input:** VCS: 30-day public comment period. Gold Standard: two consultation rounds, then a two-week public consultation
+- **Validation deadline:** VCS v4.7: two, five or eight years from the project start date. Gold Standard: two years from listing
+- **Buffer for land use projects:** VCS: risk rating of 12 to 60 from the AFOLU tool. Gold Standard: 20% of issued credits
+- **Issuance fee:** Verra: USD 0.23 per tCO2e claimed. Gold Standard: USD 0.25 per credit, or USD 0.15 plus 2% of the issuance
+
+## How do Verra VCS and Gold Standard compare?
+
+Verra's Verified Carbon Standard (VCS) has the wider scope. Gold Standard for the Global Goals credits three gases and five project types, and sets fixed minimums for stakeholder consultation. Both list a project, have a validation/verification body (VVB) audit it, and review the audit before registration.
+
+Verra released VCS Version 5 on 16 December 2025. Its [overview of effective dates](https://verra.org/documents/vcs-version-5-overview-of-vcs-program-updates-and-effective-dates/) applies most design rules to requests submitted on or after 1 January 2027, so the table names the version behind each VCS rule.
+
+| Topic | Verra VCS | Gold Standard for the Global Goals |
+| --- | --- | --- |
+| Scope | Reductions of the seven Kyoto Protocol gases and ozone-depleting substances, and removals of CO2 ([VCS Program Guide, v5.0](https://verra.org/documents/vcs-program-guide-v5-0/)) | CO2, CH4 and N2O only, in five listed project types ([GHG Emissions Reduction & Sequestration Product Requirements, v3.2](https://globalgoals.goldstandard.org/501-pr-ghg-emissions-reductions-sequestration/)) |
+| Project document | Project description in five sections, on [template v5.0A](https://verra.org/documents/vcs-project-description-template-v5-0a/) or [v5.0B](https://verra.org/documents/vcs-project-description-template-v5-0b/) | Project Design Document in sections A to I, on [template v2.0](https://globalgoals.goldstandard.org/t-prereview-design-document/) |
+| Sustainable development | Contributions to at least three SDGs ([VCS Standard, v5.0](https://verra.org/documents/vcs-standard-v5-0/), section 3.16) | Positive impacts on at least three SDGs, one of them SDG 13 ([Principles & Requirements, v2.1](https://globalgoals.goldstandard.org/101-par-principles-requirements/)) |
+| Safeguards | Risk assessment and mitigation under section 3.19 of the [VCS Standard, v4.7](https://verra.org/documents/vcs-standard-v4-7/). v5.0 requires an ESG risk assessment before the project start date | Assessment against nine principles ([Safeguarding Principles & Requirements, v2.1](https://globalgoals.goldstandard.org/103-par-safeguarding-principles-requirements/)) |
+| Consultation | Stakeholder consultation, then a 30-day public comment period ([Registration and Issuance Process, v5.0](https://verra.org/documents/registration-and-issuance-process-v5-0/)) | A physical meeting and a feedback round of at least 30 days ([Stakeholder Consultation and Engagement Requirements, v2.1](https://globalgoals.goldstandard.org/102-par-stakeholder-consultation-requirements/)), then a two-week public consultation |
+| Crediting period | v5.0: five years, renewable twice, for energy and industry, and 20 to 100 years for most land use projects. v4.7: seven years, renewable twice, or ten years fixed | Five-year certification cycles: 15 years for renewable energy and community services, 30 to 50 years for afforestation and reforestation |
+| Deadline | v4.7: complete validation within two, five or eight years of the project start date. v5.0: request registration within the same periods, counted from the initial crediting period start date | Preliminary review within one year of the project start date, validation within two years of listing |
+| Reversal risk | Pooled buffer sized by a risk rating of 12 to 60 ([Procedure for Applying the AFOLU Non-Permanence Risk Tool, v5.0](https://verra.org/documents/procedure-for-applying-the-afolu-non-permanence-risk-tool-v5-0/)) | 20% of the credits issued to land use and forests projects |
+| Buyer labels | CCP, CORSIA and Article 6 labels on Verified Carbon Units (VCUs) | CCP, CORSIA and Article 6 labels on Gold Standard Verified Emission Reductions (GSVERs) |
+| Registry fees | Listing USD 1,500, registration review USD 3,750, issuance USD 0.23 per tCO2e ([Verra Program Fee Schedule, v1.2](https://verra.org/documents/verra-program-fee-schedule-v1-2/)) | Preliminary review USD 1,000, design review USD 2,500, issuance USD 0.25 per credit ([Gold Standard Fee Schedule, v3.1](https://globalgoals.goldstandard.org/fees/)) |
+
+A proponent may choose to be validated to Version 5 before its effective dates. The project must then conform to all Version 5 requirements, except those whose effective date depends on the project start date or the listing date.
+
+## Which project types can each registry take?
+
+Project type settles the choice for many developers, because Gold Standard excludes more. Check the gas, the activity and the host country first.
+
+- **VCS scope.** Table 8 of the VCS Standard, v5.0, names project types from energy and industry to reduced deforestation (REDD), improved forest management, wetland restoration and geological carbon storage.
+
+- **VCS limits.** Table 1 of the same standard makes six activities eligible by default only in least developed countries. They include grid-connected wind, geothermal and solar photovoltaic plants, and hydropower of 15 MW or less. A methodology's own geographic conditions take precedence: [VMR0017, v1.0](https://verra.org/documents/vmr0017-grid-connected-electricity-generation-from-renewable-sources/), opens wind, geothermal and terrestrial solar projects to low, lower-middle and upper-middle income countries.
+
+- **Gold Standard scope.** The product requirements list renewable energy supply, end-use energy efficiency, waste handling and disposal, land use and forests, and carbon dioxide removal. The [Land Use & Forests Activity Requirements, v1.2.1](https://globalgoals.goldstandard.org/203-ar-luf-activity-requirements/), name two eligible types: afforestation and reforestation, and agriculture.
+
+- **Gold Standard limits.** The Principles & Requirements exclude geo-engineering, energy from fossil fuel or nuclear, and fossil fuel switch. Under the [Renewable Energy Activity Requirements, v1.4](https://globalgoals.goldstandard.org/202-ar-renewable-energy-activity-requirements/), a grid-connected project must be in a least developed country, a small island developing state or a landlocked developing country, or in a low or lower-middle income country where the technology is under 5% of grid capacity. Exceptions are listed.
+
+A type that Gold Standard does not list can be submitted for approval at preliminary review. New projects face one more test in 2026. Under the [Requirements for Paris Agreement Alignment, v1.1](https://globalgoals.goldstandard.org/119_paa_pr_100-01-requirements-paris-agreement-alignment/), a project submitted for preliminary review after 30 June 2026 must use a Paris Agreement-aligned methodology.
+
+## What differs in the documents?
+
+Both registries want the same underlying case — the activity is eligible, it is additional, the baseline is credible, the numbers are right, and the monitoring will hold up. They ask for it in different shapes, and the shape is what a developer actually has to work in.
+
+Verra's project description is written on [template v5.0A](https://verra.org/documents/vcs-project-description-template-v5-0a/) or [v5.0B](https://verra.org/documents/vcs-project-description-template-v5-0b/): five numbered sections — project details, safeguards and stakeholder engagement, application of methodology, quantification, monitoring — plus two standing appendices, one for sensitive information and one for data and parameters. It is submitted as a non-editable PDF, and where the applied methodology has been digitalized, as the digital template in the Verra Project Hub instead.
+
+Gold Standard's Project Design Document template v2.0 opens with a key project information block and a project impact summary, then runs sections A to I. The safeguarding assessment, the stakeholder consultation report and the SDG contributions are not an annex to the technical case; they sit inside the design document and are reviewed with it.
+
+The practical consequence is ordering. Under VCS a developer can get a long way into methodology, quantification and monitoring before the social sections come due. Under Gold Standard the consultation has to have happened before the design document is finished, because the report of it is part of the document. That is a scheduling difference, not a paperwork one.
+
+## What differs in consultation and public scrutiny?
+
+Verra runs one public window. Under the [Registration and Issuance Process, v5.0](https://verra.org/documents/registration-and-issuance-process-v5-0/), a project undergoes a 30-day public comment period that starts on the date its status becomes *under validation*, with comments submitted through the Verra Project Hub and a public summary posted at the end. Local stakeholder consultation is a requirement of the standard, but it is the proponent's to design and report.
+
+Gold Standard prescribes the local process and adds its own public windows. The [Stakeholder Consultation Requirements, v2.1](https://globalgoals.goldstandard.org/102-par-stakeholder-consultation-requirements/), require one mandatory physical meeting — stakeholders invited at least 30 days beforehand, information shared in advance — and one stakeholder feedback round lasting at least one month. Then, during design review, Gold Standard itself runs a two-week public consultation on its Assurance platform, with the documentation also going to its Technical Advisory Committee and NGO Supporters; design review lasts a minimum of four weeks and the consultation sits inside it. The same two-week consultation recurs at performance review and at design certification renewal.
+
+One deadline in that process is unforgiving. Where Gold Standard raises corrective action requests during design review, the developer and the VVB must respond within six weeks of receiving the comments; the [Principles & Requirements, v2.1](https://globalgoals.goldstandard.org/101-par-principles-requirements/), state that a late submission results in the complete rejection of the request.
+
+## What differs in the calendar and the cost?
+
+Gold Standard's clock starts earliest: preliminary review has to be requested within one year of the project start date. Verra's v4.7 deadlines are two, five or eight years from the project start date depending on the project type, which gives a developer materially more room to assemble evidence before committing.
+
+On registry fees the two are close enough that fees should not decide the choice — USD 1,500 plus USD 3,750 at Verra against USD 1,000 plus USD 2,500 at Gold Standard, with issuance levies of USD 0.23 and USD 0.25 per credit respectively. What differs more is what sits outside both schedules: the validation and verification body's audit fee, which neither registry sets and which is usually the largest single cost, and, for land use projects, the buffer. Verra withholds a share of credits set by an AFOLU risk rating between 12 and 60; Gold Standard withholds a flat 20% of credits issued to land use and forests projects. On a nature-based project that difference is worth more than every registry fee combined.
+
+## Which labels can each registry put on a credit?
+
+Both now carry the three labels buyers ask for: the ICVCM Core Carbon Principles label, a CORSIA label, and an Article 6 label for credits with host country authorization. So the label is rarely a reason to pick one registry over the other — but it is often a reason to check the methodology, because labels are awarded against methodologies and vintages, not against registries. A project should confirm that the specific methodology it intends to apply is eligible for the label its buyer needs before it lists anywhere.
+
+For CORSIA in particular, credits of vintage 2021 or later need host country authorization under Article 6, plus either evidence of a corresponding adjustment or an approved insurance-backed guarantee. That is a government-facing workstream with its own timetable, and it is independent of which registry holds the project.
+
+## How should a developer choose?
+
+In the order the constraints actually bind:
+
+1. **Is the project type eligible at all?** Gold Standard credits only carbon dioxide, methane and nitrous oxide across five listed project types; the VCS scope is wider and includes activities Gold Standard does not take. If only one registry can take the activity, the decision is made.
+
+2. **Is there an approved methodology that fits, and is it active?** A registry is only as useful as the methodology a project can actually apply, and applicability conditions are where most projects fail. Read them before choosing.
+
+3. **Which deadline can the project still meet?** A project whose start date is already more than a year old has effectively lost the Gold Standard preliminary review window.
+
+4. **What does the buyer need?** A specific label, a specific co-benefit story, or an SDG framing the buyer reports against.
+
+5. **What can the team actually run?** Gold Standard's prescribed consultation and safeguarding process is more work up front and more certain in form; Verra's is more flexible and puts more of the design burden on the developer.
+
+Fees and crediting-period length come last. They matter, but they rarely override the four questions above.
+
+## How Climat handles this
+
+Climat treats each registry as its own document with its own section list and its own order, rather than drafting one generic document and relabelling it. For VCS that is a ten-section list ending in the crediting period; for Gold Standard it is nine sections with safeguarding, consultation and SDG contributions near the front, where Gold Standard puts them. The methodology drives the intake questions and the applicability check either way.
+
+What Climat cannot do is choose the registry for a developer. That decision rests on the project type, the methodology, the deadline already running, and what a buyer will pay for — and on evidence gathered outside any document. Climat's applicability check will tell a developer whether a methodology's conditions are met, not met, or need a person to look; the evidence gap report says what is still unproven. The choice of registry stays with the developer. See the [Verra VCS page](https://climat.today/registries/verra-vcs/) and the [Gold Standard page](https://climat.today/registries/gold-standard/) for each document section by section.
+
+## Frequently asked questions
+
+### Is Verra or Gold Standard better for a carbon project?
+
+Neither is better in general. Project type decides first, because Gold Standard credits only carbon dioxide, methane and nitrous oxide and lists five project types, while the VCS scope is wider. After that the choice turns on the methodology available, the label the buyer needs, and the deadlines the project can still meet.
+
+### Which version of the VCS rules applies to a project registering now?
+
+It depends on the rule. Verra released VCS Version 5 on 16 December 2025, and most design rules take effect for requests submitted on or after 1 January 2027. The new stakeholder engagement and safeguard rules apply to projects with a start date on or after 1 January 2027. Earlier requests follow the VCS Standard, v4.7, unless the proponent opts into Version 5.
+
+### How many Sustainable Development Goals must a project support?
+
+Three under both registries. The VCS Standard requires contributions to at least three SDGs. Gold Standard requires positive impacts on at least three SDGs, one of which must be SDG 13, with monitoring indicators set in the Project Design Document.
+
+### How long can a project earn credits under each registry?
+
+Under the VCS Standard, v5.0, energy and industry projects get five years, renewable twice, and most land use projects get 20 to 100 years. Gold Standard certifies in five-year cycles, up to 15 years for renewable energy and community services projects and 30 to 50 years for afforestation and reforestation. VCS registration requests submitted before 1 January 2027 still use the v4.7 periods for energy and industry projects.
+
+### What does it cost to register with Verra and with Gold Standard?
+
+Verra charges USD 1,500 for pipeline listing and USD 3,750 for the registration review. Gold Standard charges USD 1,000 for preliminary review and USD 2,500 for design review. Both also charge account, verification and issuance fees, and neither schedule covers what the validation body charges for the audit.
+
+### Can credits from both registries be used under CORSIA?
+
+Yes, within the limits set by ICAO. Both registries label credits for the first phase, 2024 to 2026, and the second phase, 2027 to 2029. Credits of vintage 2021 or later need host country authorization under Article 6, plus either evidence of a corresponding adjustment or an approved insurance-backed guarantee.
+
+## Sources
+
+1. [VCS Standard, v5.0 (16 December 2025)](https://verra.org/documents/vcs-standard-v5-0/), Verra (accessed 2026-09-29)
+2. [VCS Standard, v4.7 (16 April 2024)](https://verra.org/documents/vcs-standard-v4-7/), Verra (accessed 2026-09-29)
+3. [VCS Version 5: Overview of VCS Program Updates and Effective Dates (last updated 10 September 2026)](https://verra.org/documents/vcs-version-5-overview-of-vcs-program-updates-and-effective-dates/), Verra (accessed 2026-09-29)
+4. [VCS Program Guide, v5.0 (16 December 2025)](https://verra.org/documents/vcs-program-guide-v5-0/), Verra (accessed 2026-09-29)
+5. [Registration and Issuance Process, v5.0 (16 December 2025)](https://verra.org/documents/registration-and-issuance-process-v5-0/), Verra (accessed 2026-09-29)
+6. [VCS Project Description Template, v5.0A](https://verra.org/documents/vcs-project-description-template-v5-0a/), Verra (accessed 2026-09-29)
+7. [VCS Project Description Template, v5.0B](https://verra.org/documents/vcs-project-description-template-v5-0b/), Verra (accessed 2026-09-29)
+8. [VMR0017 Grid-Connected Electricity Generation from Renewable Sources (ACM0002 Revision), v1.0 (23 April 2026)](https://verra.org/documents/vmr0017-grid-connected-electricity-generation-from-renewable-sources/), Verra (accessed 2026-09-29)
+9. [Procedure for Applying the AFOLU Non-Permanence Risk Tool, v5.0 (16 December 2025)](https://verra.org/documents/procedure-for-applying-the-afolu-non-permanence-risk-tool-v5-0/), Verra (accessed 2026-09-29)
+10. [ICVCM Core Carbon Principles (CCP) Label Guidance, v1.1 (5 August 2026)](https://verra.org/documents/icvcm-core-carbon-principles-ccp-label-guidance/), Verra (accessed 2026-09-29)
+11. [CORSIA Label Guidance, v1.1 (9 April 2026)](https://verra.org/documents/corsia-label-guidance-v1-1/), Verra (accessed 2026-09-29)
+12. [Article 6 Label Guidance, v1.1 (9 April 2026)](https://verra.org/documents/article-6-label-guidance-v1-1/), Verra (accessed 2026-09-29)
+13. [Verra Program Fee Schedule, v1.2 (15 September 2026)](https://verra.org/documents/verra-program-fee-schedule-v1-2/), Verra (accessed 2026-09-29)
+14. [Principles & Requirements, v2.1 (31 January 2025)](https://globalgoals.goldstandard.org/101-par-principles-requirements/), Gold Standard (accessed 2026-09-29)
+15. [Stakeholder Consultation and Engagement Requirements, v2.1 (14 June 2022)](https://globalgoals.goldstandard.org/102-par-stakeholder-consultation-requirements/), Gold Standard (accessed 2026-09-29)
+16. [Safeguarding Principles & Requirements, v2.1 (29 June 2023)](https://globalgoals.goldstandard.org/103-par-safeguarding-principles-requirements/), Gold Standard (accessed 2026-09-29)
+17. [Requirements for Paris Agreement Alignment, v1.1 (2 February 2026)](https://globalgoals.goldstandard.org/119_paa_pr_100-01-requirements-paris-agreement-alignment/), Gold Standard (accessed 2026-09-29)
+18. [Project Design Document template, v2.0 (15 May 2026)](https://globalgoals.goldstandard.org/t-prereview-design-document/), Gold Standard (accessed 2026-09-29)
+19. [GHG Emissions Reduction & Sequestration Product Requirements, v3.2 (12 December 2025)](https://globalgoals.goldstandard.org/501-pr-ghg-emissions-reductions-sequestration/), Gold Standard (accessed 2026-09-29)
+20. [Community Services Activity Requirements, v1.2 (October 2019)](https://globalgoals.goldstandard.org/201-ar-community-services-activity-requirements/), Gold Standard (accessed 2026-09-29)
+21. [Renewable Energy Activity Requirements, v1.4 (16 August 2021)](https://globalgoals.goldstandard.org/202-ar-renewable-energy-activity-requirements/), Gold Standard (accessed 2026-09-29)
+22. [Land Use & Forests Activity Requirements, v1.2.1 (April 2020)](https://globalgoals.goldstandard.org/203-ar-luf-activity-requirements/), Gold Standard (accessed 2026-09-29)
+23. [Requirements: Core Carbon Principles Labelling of Gold Standard Verified Emission Reductions, v3.1 (24 July 2026)](https://globalgoals.goldstandard.org/503-pr-core-carbon-principles-labelling-requirements/), Gold Standard (accessed 2026-09-29)
+24. [Guideline: Eligibility of Gold Standard VERs for Use under CORSIA's First and Second Phases, v1.4 (7 July 2026)](https://globalgoals.goldstandard.org/115g-corsia-eligibility-of-gold-standard-vers-for-use-under-corsias-first-phase/), Gold Standard (accessed 2026-09-29)
+25. [Gold Standard Fee Schedule, v3.1 (28 July 2025)](https://globalgoals.goldstandard.org/fees/), Gold Standard (accessed 2026-09-29)
