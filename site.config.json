@@ -1,0 +1,167 @@
+{
+  "name": "Climat",
+  "url": "https://climat.today",
+  "language": "en",
+  "locale": "en_US",
+  "tagline": "From project idea to a validation-ready project document",
+  "description": "Climat is an origination workspace for carbon project developers. It checks methodology applicability, reports what evidence is missing, and drafts the project document from your evidence with a citation on every claim.",
+  "themeColor": "#0d5058",
+  "ogImage": "/assets/og/climat-og.png",
+  "contactEmail": "contact@chainflux.com",
+  "organization": {
+    "parentName": "Chainflux",
+    "parentUrl": "https://www.chainflux.com/",
+    "foundingDate": "2018",
+    "telephone": "+91 9739579930",
+    "address": {
+      "streetAddress": "42, 2nd & 3rd Floor, 100 Feet Rd, Koramangala 4th Block",
+      "addressLocality": "Bengaluru",
+      "addressRegion": "Karnataka",
+      "postalCode": "560034",
+      "addressCountry": "IN"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/company/chainfluxltd/",
+      "https://twitter.com/chainflux"
+    ]
+  },
+  "nav": [
+    {
+      "label": "Product",
+      "href": "/product/"
+    },
+    {
+      "label": "Methodologies",
+      "href": "/methodologies/"
+    },
+    {
+      "label": "Registries",
+      "href": "/registries/"
+    },
+    {
+      "label": "Guides",
+      "href": "/guides/"
+    },
+    {
+      "label": "Glossary",
+      "href": "/glossary/"
+    }
+  ],
+  "cta": {
+    "label": "Request access",
+    "href": "/contact/"
+  },
+  "sections": {
+    "product": "Product",
+    "methodologies": "Methodologies",
+    "registries": "Registries",
+    "guides": "Guides",
+    "glossary": "Glossary"
+  },
+  "footer": [
+    {
+      "title": "Product",
+      "links": [
+        {
+          "label": "How it works",
+          "href": "/product/"
+        },
+        {
+          "label": "Applicability check",
+          "href": "/product/applicability-check/"
+        },
+        {
+          "label": "Document drafting",
+          "href": "/product/document-drafting/"
+        },
+        {
+          "label": "Pre-validation review",
+          "href": "/product/pre-validation/"
+        },
+        {
+          "label": "Monitoring",
+          "href": "/product/monitoring/"
+        }
+      ]
+    },
+    {
+      "title": "Reference",
+      "links": [
+        {
+          "label": "Methodologies",
+          "href": "/methodologies/"
+        },
+        {
+          "label": "Registries",
+          "href": "/registries/"
+        },
+        {
+          "label": "Guides",
+          "href": "/guides/"
+        },
+        {
+          "label": "Glossary",
+          "href": "/glossary/"
+        }
+      ]
+    },
+    {
+      "title": "Company",
+      "links": [
+        {
+          "label": "About",
+          "href": "/about/"
+        },
+        {
+          "label": "How we use AI",
+          "href": "/trust/"
+        },
+        {
+          "label": "Editorial policy",
+          "href": "/editorial-policy/"
+        },
+        {
+          "label": "Contact",
+          "href": "/contact/"
+        }
+      ]
+    }
+  ],
+  "redirects": {
+    "/about.html": "/about/",
+    "/contact.html": "/contact/",
+    "/carbon-credit.html": "/product/",
+    "/report.html": "/",
+    "/sustainability-suite.html": "/"
+  },
+  "aiCrawlers": [
+    "OAI-SearchBot",
+    "ChatGPT-User",
+    "GPTBot",
+    "Claude-SearchBot",
+    "Claude-User",
+    "ClaudeBot",
+    "PerplexityBot",
+    "Perplexity-User",
+    "Google-Extended",
+    "Applebot",
+    "Applebot-Extended",
+    "Amzn-SearchBot",
+    "Amzn-User",
+    "Amazonbot",
+    "meta-webindexer",
+    "meta-externalfetcher",
+    "Meta-ExternalAgent",
+    "MistralAI-Index",
+    "MistralAI-User",
+    "DuckAssistBot",
+    "CCBot",
+    "Bytespider"
+  ],
+  "alternateNames": [
+    "Climat.today",
+    "Climat by Chainflux"
+  ],
+  "entity": "Climat (climat.today), by Chainflux",
+  "indexNowKey": "42817961a33a881682f076be2812c103"
+}

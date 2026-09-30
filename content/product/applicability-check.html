@@ -1,0 +1,48 @@
+<!--
+{
+  "layout": "simple",
+  "kicker": "Product",
+  "crumb": "Applicability check",
+  "title": "Applicability check for carbon methodologies",
+  "h1": "Applicability check",
+  "description": "Climat evaluates every applicability condition of a carbon methodology against your project inputs and returns pass, fail or needs review for each one.",
+  "summary": "The applicability check evaluates every applicability condition of the chosen methodology against the project's intake and returns one of three results for each: pass, fail, or needs review. It is rule-based, not generated, and a condition that calls for judgment is sent to a person instead of being guessed.",
+  "updated": "2026-09-29",
+  "order": 1,
+  "card": "Every condition of the methodology, evaluated as pass, fail or needs review.",
+  "faq": [
+    { "q": "Is the applicability check done by a language model?", "a": "No. The check is rule-based. Each condition is written down from the published methodology with the input it depends on and the test it applies, and the result is computed from your intake. The same inputs always give the same result." },
+    { "q": "What happens if an input has not been provided yet?", "a": "The condition is reported as needs review. A condition is never reported as passed because its input is missing." },
+    { "q": "What should I do if a condition fails?", "a": "A failed condition means the project, as described, does not fit the methodology. Check the input first. If it is right, the options are a different methodology, a change to the project, or a deviation under the registry's own rules, which a validator has to accept." }
+  ]
+}
+-->
+<h2>What does the applicability check do?</h2>
+<p>It takes the applicability conditions of the methodology you chose and tests your project against each one. Nothing is skipped: a methodology with nine conditions produces nine results.</p>
+<p>The check runs as soon as the intake is submitted, before any drafting. If the methodology does not fit, you find out before you have spent time on a document.</p>
+
+<figure class="doc">
+<div class="doc-bar"><span>Applicability check</span><span>VM0047 v1.1</span></div>
+<div class="doc-body"><ul class="checks">
+<li><span>Planting density does not exceed 50 planting units per hectare<small>Intake: 45 units per hectare</small></span><span class="chip chip-pass">Pass</span></li>
+<li><span>No similar-purpose woody biomass removed from the area in the last 10 years<small>Intake: none removed. Land records uploaded.</small></span><span class="chip chip-pass">Pass</span></li>
+<li><span>Soil inversion stays within the methodology's depth limit<small>Not yet answered in the intake</small></span><span class="chip chip-review">Needs review</span></li>
+</ul></div>
+<figcaption class="doc-foot">Illustrative example showing three of the methodology's conditions.</figcaption>
+</figure>
+
+<h2>What do the three results mean?</h2>
+<table>
+<thead><tr><th>Result</th><th>Meaning</th><th>What to do</th></tr></thead>
+<tbody>
+<tr><th>Pass</th><td>The input you gave satisfies the condition as the methodology states it.</td><td>Make sure the evidence behind the input is uploaded. The validator will ask for it.</td></tr>
+<tr><th>Fail</th><td>The input you gave does not satisfy the condition.</td><td>Check the input. If it is correct, the project does not fit this methodology as described.</td></tr>
+<tr><th>Needs review</th><td>The condition calls for judgment, or its input has not been supplied.</td><td>A person on your team has to make the determination and record why.</td></tr>
+</tbody></table>
+
+<h2>Which conditions are sent to a person?</h2>
+<p>Some conditions are thresholds: a density, a date, a capacity. Those can be computed. Others ask whether an arrangement meets a description, and turn on facts a form cannot capture. Climat marks those as needs review and does not attempt an answer.</p>
+<p>For background on how validators read these conditions, see the guide to <a href="/guides/applicability-conditions/">applicability conditions</a>.</p>
+
+<h2>Which methodologies does it cover?</h2>
+<p>The check covers the methodologies Climat supports today: <a href="/methodologies/vm0047/">Verra VM0047</a> version 1.1, census-based approach, and <a href="/methodologies/vmr0017/">Verra VMR0017</a> version 1.0. Conditions are set up from the published methodology text.</p>
